@@ -1,1 +1,1 @@
-## Malamyine TU
+## Technological University Of Mawlamyine
