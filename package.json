@@ -9,10 +9,30 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@material-ui/core": "latest",
+    "@material-ui/core": "^4.8.0",
+    "@material-ui/icons": "^4.5.1",
     "clsx": "latest",
+    "material-auto-rotating-carousel": "^3.0.2",
+    "material-ui-pickers": "^2.2.4",
+    "moment": "^2.24.0",
     "react": "latest",
     "react-dom": "latest",
-    "react-scripts": "latest"
+    "react-responsive-carousel": "^3.1.51",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "latest",
+    "react-swipeable-views": "^0.13.3",
+    "styled-components": "^4.4.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
