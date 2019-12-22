@@ -24,6 +24,8 @@ const useStyles = makeStyles(theme => ({
     },
     title: {
         display: 'none',
+        fontSize: '95%',
+        padding: theme.spacing(1,0,1,0),
         [theme.breakpoints.up('sm')]: {
             display: 'block',
         },
@@ -172,8 +174,8 @@ export default function PrimarySearchAppBar() {
                         <MenuIcon />
                     </IconButton>
                     <Typography className={classes.title} variant="h6" noWrap>
-                        Material-UI
-          </Typography>
+                        နည်းပညာတက္ကသိုလ်(မော်လမြိုင်)
+                    </Typography>
                     <div className={classes.search}>
                         <div className={classes.searchIcon}>
                             <SearchIcon />
