@@ -2,6 +2,7 @@ import React from 'react'
 import { Route } from 'react-router-dom'
 import * as routes from '../Routes'
 import Container from '@material-ui/core/Container'
+import Grid from '@material-ui/core/Grid'
 import styled from 'styled-components'
 import PageNav from '../Components/Navbar'
 import PageHome from '../Components/Home'
@@ -71,22 +72,20 @@ const Layout = () => {
   return (
     <>
       <PageNav />
-      <Container maxWidth="xl">
-        <DContainer>
-          <DCard>
-            <Route
-              exact
-              path={routes.HOME}
-              component={() => <PageHome />}
-            />
-            <Route
-              exact
-              path={routes.REGISTER}
-              component={() => <PageRegister />}
-            />
-          </DCard>
-        </DContainer>
-      </Container>
+      <Grid container alignItems='center' alignContent="flex-start" justify="center">
+        <Grid item>
+          <Route
+            exact
+            path={routes.HOME}
+            component={() => <PageHome />}
+          />
+          <Route
+            exact
+            path={routes.REGISTER}
+            component={() => <PageRegister />}
+          />
+        </Grid>
+      </Grid>
     </>
   )
 
